@@ -2,6 +2,8 @@
 #Flask==2.3
 Flask
 python-dotenv==0.19.2
-openai==0.10.2
+#openai==0.10.2
+# Cargar la ultima Version disponible
+openai
 # Para usarlo en Render.com
 Gunicorn
