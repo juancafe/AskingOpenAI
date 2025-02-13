@@ -35,7 +35,7 @@ def submit():
             temperature=0.7
     )
     answer = response.choices[0].message.content
-    return f"Question: {question} <br> Answe: {answer}"
+    return f"Pregunta : {question} <br> Respuesta : {answer}"
 
 if __name__ == '__main__':
     app.run(debug=True)
