@@ -1,10 +1,10 @@
-{% block title %}Preguntale a CHAPTGPT{% endblock %}
+{% block title %}Preguntale a CHATGPT{% endblock %}
 
 {% block content %}
     <h2>Bienvenido a mi Home Page</h2>
     <p>This is the home page of our Flask application.</p>
     <form action="{{ url_for('submit') }}" method="post">
-        <label for="question">Your Question to GPT 4o:</label>
+        <label for="question">Hazle una pregunta a ChatGPT 4o :</label>
         <input type="text" id="question" name="question" required>
         <br>
         <button type="submit">Submit</button>
